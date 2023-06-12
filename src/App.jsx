@@ -1,4 +1,3 @@
-import React from 'react'
 
 import BasicExample from './Components/Navbar';
 import Hero from './Components/Hero';

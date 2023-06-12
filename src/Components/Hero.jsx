@@ -1,4 +1,3 @@
-import React from 'react'
 import img from "../assets/background.jpg"
 import Button from 'react-bootstrap/Button';
 
