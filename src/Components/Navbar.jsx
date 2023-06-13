@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function BasicExample() {
+function NavigationBar() {
     return (
         <Navbar bg="light" expand="lg" className='h-20'>
             <Container className='flex justify-around'>
@@ -24,4 +24,4 @@ function BasicExample() {
     );
 }
 
-export default BasicExample;
+export default NavigationBar;
