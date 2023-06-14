@@ -1,8 +1,6 @@
 /* eslint-disable */
 
-export default function Overlay(
-    props
-) {
+export default function Overlay(props) {
     return (
         <div className="relative">
             <img src={props.image} alt="img" className="h-[90vh] w-[100vw] filter brightness-50" />
