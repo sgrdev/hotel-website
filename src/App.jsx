@@ -1,22 +1,23 @@
-
-import NavigationBar from './Components/Navbar';
-import Hero from './Components/Hero';
-import About from './Components/About';
-import SecondEvent from './Components/SecondEvent';
-import CarouselExample from "./Components/Carousel"
-import Footer from './Components/Footer';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import FrontPage from './Pages/Frontpage';
+// import RoomsandRate from './Pages/RoomsandRate';
+// import Facilities from './Pages/Facilities';
+// import Contact from './Pages/Contact';
 
 
 
 const App = () => {
   return (
     <>
-      <NavigationBar />
-      <Hero />
-      <About />
-      <SecondEvent />
-      <CarouselExample />
-      <Footer />
+      <FrontPage />
+      {/* <Router>
+        <Routes>
+          <Route path='/' element={<FrontPage />} />
+          <Route path='/about' element={<RoomsandRate />} />
+          <Route path='/facilities' element={<Facilities />} />
+          <Route path='/contact' element={<Contact />} />
+          </Routes>
+      </Router> */}
 
     </>
   )
